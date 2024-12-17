@@ -1,20 +1,20 @@
 export const QUESTION = [
     {
-        que: 'Faq One',
+        que: 'Question One',
         ans: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam'
     },
     {
-        que: 'Faq Two',
+        que: 'Question Two',
         ans: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam'
        
     },
     {
-        que: 'Faq Three',
+        que: 'Question Three',
         ans: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam'
        
     },
     {
-        que: 'Faq Four',
+        que: 'Question Four',
         ans: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam'
        
     }
