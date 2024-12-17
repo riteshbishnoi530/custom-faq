@@ -8,6 +8,7 @@ function Faq() {
     }
     return (
         <div className='max-w-[600px] mx-auto py-5'>
+            <h1 className='text-center text-4xl'>FAQ</h1>
             {QUESTION.map((obj, i) => (
                 <div key={i} className='border-2 p-3 border-gray-400 rounded-lg mt-4'>
                     <div onClick={()=>handleFaq(i)} className='flex justify-between items-center cursor-pointer'>
