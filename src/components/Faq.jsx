@@ -13,7 +13,7 @@ function Faq() {
                 <div key={i} className='border-2 p-3 border-gray-400 rounded-lg mt-4'>
                     <div onClick={()=>handleFaq(i)} className='flex justify-between items-center cursor-pointer'>
                         <h3 className='text-2xl font-medium'>{obj.title}</h3>
-                        <div className={`text-2xl size-5 items-center pb-1 flex justify-center ${ faq === i ? "rotate-0 transition-all duration-300 ease-in-out" : "-rotate-90 transition-all duration-300 ease-in-out"
+                        <div className={`text-2xl size-5 items-center pb-1 flex justify-center transition-all duration-300 ease-in-out ${ faq === i ? "rotate-0" : "-rotate-90"
                             }`}>{faq === i ? "-" : "+"}</div>
                     </div>
                     <div className={`${faq === i ? "max-h-32":"max-h-0"} overflow-hidden transition-all duration-500 ease-in-out`}>
