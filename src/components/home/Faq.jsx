@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FAQ_LIST} from '../utils/helper'
+import { FAQ_LIST} from '../../utils/helper'
 
 function Faq() {
     const [faq , setFaq]=useState()
@@ -21,6 +21,10 @@ function Faq() {
                     </div>
                 </div>
             ))}
+
+            <div>
+                
+            </div>
         </div>
     )
 }

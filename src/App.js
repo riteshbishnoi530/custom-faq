@@ -1,9 +1,18 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Faq from './components/Faq';
+import Home from './components/view/Home';
+import About from './components/view/About';
+import User from './components/view/User';
 
 function App() {
   return (
-    <Faq/>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/user/tabId' element={<User/>}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
