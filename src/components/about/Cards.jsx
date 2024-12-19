@@ -10,21 +10,21 @@ const Cards = () => {
 
       <div className="container flex justify-center gap-6 bg-white rounded-lg shadow-md py-4">
         <Link
-          to="/tabs/1"
+          to="/tab-1"
           className={`px-6 py-4 text-lg font-semibold transition ${tabId === '1'
             ? 'bg-blue-500 text-white'
             : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
             }`}>Tab 1
         </Link>
         <Link
-          to="/tabs/2"
+          to="/tab-2"
           className={`px-6 py-4 text-lg font-semibold transition ${tabId === '2'
             ? 'bg-blue-500 text-white'
             : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
             }`}>Tab 2
         </Link>
         <Link
-          to="/tabs/3"
+          to="/tab-3"
           className={`px-6 py-4 text-lg font-semibold transition ${tabId === '3'
             ? 'bg-blue-500 text-white'
             : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
